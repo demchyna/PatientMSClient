@@ -1,0 +1,61 @@
+#pl-toolbar {
+    display: flex;
+    margin: 35px 25px 0 30px;
+    padding-bottom: 10px;
+}
+
+#pl-toolbar>button {
+    font-size: 1.15rem;
+    margin-left: 15px;
+}
+
+#pl-toolbar>input {
+    font-size: 1.15rem;
+    width: 80px;
+    flex-grow: 1;
+}
+
+#patient-list>ul {
+    list-style: none;
+    padding-left: 5px;
+    margin-left: 25px;
+}
+
+#pl-main {
+    height: 70vh;
+    overflow-y: scroll;
+    margin-right: 10px;
+}
+
+#pl-main>li {
+    padding: 15px 0;
+    margin-right: 25px;
+    border-top: 2px ridge dimgray;
+}
+
+#pl-main>li>a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+#pl-main>li:hover {
+    background-color: #d9dfe5;
+}
+
+#pl-main>li>a>span {
+    display: block;
+}
+
+#pl-main>li>a>span:nth-child(1) {
+    font-size: 1.4rem;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+#pl-main>li>a>span:nth-child(3) {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    top: -40px;
+}

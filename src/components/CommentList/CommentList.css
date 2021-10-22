@@ -1,0 +1,52 @@
+#comment-list {
+    background-color: lightgoldenrodyellow;
+    border: 2px ridge dimgray;
+    flex-grow: 1;
+}
+
+#comment-list>ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-bottom: 2px ridge dimgray;
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+#comment-list>h3 {
+    font-size: 1.3rem;
+    margin-left: 30px;
+}
+
+ul>li {
+    padding-top: 10px;
+}
+
+ul>li>time {
+    font-style: italic;
+}
+
+ul>li>p {
+    font-weight: bold;
+}
+
+#comment-toolbar {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px
+}
+
+#comment-toolbar>form {
+    display: flex;
+}
+#comment-toolbar>form>textarea {
+    flex-grow: 1;
+    white-space: pre-wrap;
+}
+
+#comment-toolbar>form>button {
+    margin-left: 15px;
+}
+
+

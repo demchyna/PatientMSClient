@@ -1,0 +1,46 @@
+#update-container {
+    margin-top: 52px;
+    border-top: 2px ridge dimgray;
+}
+
+#update-container>form {
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+
+#update-container>form>input {
+    font-size: 1.15rem;
+    width: 300px;
+}
+
+#update-container>form>select {
+    font-size: 1.15rem;
+    width: 307px;
+}
+
+#up-toolbar {
+    position: absolute;
+    top: 50px;
+    right: 45px;
+}
+
+#up-toolbar>input {
+    font-size: 1.15rem;
+    width: 80px;
+    margin-left: 15px;
+}
+
+#update-container>form>label {
+    display: inline-block;
+    font-size: 1.15rem;
+    width: 130px;
+    padding-bottom: 15px;
+}
+
+#up-patient {
+    position: absolute;
+    top: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
